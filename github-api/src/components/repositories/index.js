@@ -38,7 +38,9 @@ const Repositories = () => {
                             <RepositoryItem
                                 key={item.id}
                                 name={item.name} linkToRepo={item.html_url} fullName={item.full_name} 
-                                description={item.description}/>
+                                description={item.description}
+                                forks={item.forks}
+                                star={item.stargazers_count}/>
                         ))}
                         </S.WrapperList>
                     </S.WrapperTabPanel>
@@ -47,7 +49,8 @@ const Repositories = () => {
                     {githubState.starred.map((item) => (
                             <RepositoryItem
                                 key={item.id}
-                                name={item.name} linkToRepo={item.html_url} fullName={item.full_name} />
+                                name={item.name} linkToRepo={item.html_url} fullName={item.full_name}
+                                forks={item.forks} star={item.stargazers_count}/>
                         ))}
                         </S.WrapperList>
                     </S.WrapperTabPanel>

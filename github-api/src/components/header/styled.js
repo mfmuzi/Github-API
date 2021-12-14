@@ -18,7 +18,7 @@ input {
     height: 44px;
     padding: 8px;
     font-weight: 500;
-    margin-left:70%  
+    margin-left:75%  
     
     
 }

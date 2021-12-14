@@ -27,6 +27,9 @@ const GithubProvider = ({ children }) => {
             public_gists: 0,
             public_repos: 0,
             description: undefined,
+            bio: undefined,
+            forks:0,
+            stargazers_count:0
 
         },
         repositories: [],
@@ -60,7 +63,11 @@ const GithubProvider = ({ children }) => {
                     public_gists: data.public_gists,
                     public_repos: data.public_repos,
                     description: data.description,
+                    bio: data.bio,
+                    forks: data.forks,
+                    stargazers_count:data.stargazers_count
 
+                    
                 },
             }));
         }).finally(() => {

@@ -15,12 +15,12 @@ const App = () => {
 
     <Layout>
       {githubState.hasUser ? (
-      <>
-      {githubState.loading ? (<p>Loading</p>) : (<>
-        <Profile />
-        <Repositories />
-      </>)}
-      </> ) : (<NoSearch />)}
+        <>
+          {githubState.loading ? (<p>Loading</p>) : (<>
+            <Profile />
+            <Repositories />
+          </>)}
+        </>) : (<NoSearch />)}
     </Layout>
   );
 };

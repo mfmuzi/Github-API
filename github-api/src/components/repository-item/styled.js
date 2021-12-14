@@ -7,7 +7,7 @@ padding: 20px;
 border-radius: 8px;
   border: 1px solid #ccc;
   margin: 16px 16px;
-  width: 20em;
+  width: 30%;
   height: auto;
  
   
@@ -43,3 +43,17 @@ font-size: 14px;
 text-align: center;
 margin-top: -15px;
 `;
+
+export const WrapperIcon = styled.div`
+display: flex;
+justify-content:center;
+font-size: 14px;
+margin-top:20px;
+
+p{
+margin-right:25px
+}
+`;
+
+
+
