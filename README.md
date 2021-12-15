@@ -10,8 +10,8 @@ Para executar o projeto utilize:
 
 ```
 npm install
-npm build
-npm start
+npm run build
+npm run start
 ```
 
 O projeto será executado em:
