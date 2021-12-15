@@ -15,7 +15,7 @@ const submitGetUser = () => {
     return (
         <header>
             <S.Wrapper>
-                <input type="text" placeholder="Buscar Username..." onChange={(event) => setUsernameForSearch(event.target.value)} onKeyPress={event => {if(event.key === 'Enter'){submitGetUser()}}}></input>
+                <input type="text" placeholder="  Username..." onChange={(event) => setUsernameForSearch(event.target.value)} onKeyPress={event => {if(event.key === 'Enter'){submitGetUser()}}}></input>
                 <button type="submit" onClick={submitGetUser} ><span>Buscar</span></button>
             </S.Wrapper>
         </header>
